@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { MyEditor } from './components/imageUploader';
+import { KWAvatarEditor } from './components/KWAvatarEditor';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyEditor />
+        <KWAvatarEditor />
       </header>
     </div>
   );
